@@ -1,33 +1,3 @@
-/*
- * hextris Copyright 1990 David Markley, dm3e@+andrew.cmu.edu, dam@cs.cmu.edu
- *
- * Permission to use, copy, modify, and distribute, this software and its
- * documentation for any purpose is hereby granted without fee, provided that
- * the above copyright notice appear in all copies and that both that
- * copyright notice and this permission notice appear in supporting
- * documentation, and that the name of the copyright holders be used in
- * advertising or publicity pertaining to distribution of the software with
- * specific, written prior permission, and that no fee is charged for further
- * distribution of this software, or any modifications thereof.  The copyright
- * holder make no representations about the suitability of this software for
- * any purpose.  It is provided "as is" without express or implied warranty.
- *
- * THE COPYRIGHT HOLDER DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
- * INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO
- * EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY SPECIAL, INDIRECT OR
- * CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
- * DATA, PROFITS, QPA OR GPA, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE 
- * OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
- * PERFORMANCE OF THIS SOFTWARE.
- */
-
-/* This file contains the heart of hextris. It contains absolutely no
- * direct I/O calls, for maximum portability. All I/O that is performed is
- * done so by either the I/O handler directly, calls from the I/O handler
- * to functions in this file that call functions in the I/O handler, or by
- * functions in this file that call functions in the I/O handler.
- */
-
 #include <string.h>
 
 #include "header.h"
