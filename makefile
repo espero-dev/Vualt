@@ -1,7 +1,3 @@
-# $Id$
-
-include $(SRCDIR)/config/aros-contrib.cfg
-
 FILES := hextris stdsys arosio shape
 
 EXEDIR := $(AROS_CONTRIB)/Games/Puzzle/CXHextris
