@@ -1,4 +1,4 @@
-FILES := hextris stdsys arosio shape
+FILES := vault stdsys arosio shape
 
 EXEDIR := $(AROS_CONTRIB)/Games/Puzzle/CXHextris
 
